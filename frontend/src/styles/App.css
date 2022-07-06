@@ -1,0 +1,95 @@
+
+.img_log{
+    height: 143px;
+width: 137px;
+left: 20px;
+top: 7px;
+border-radius: 0px;
+
+}
+
+
+.post {
+    display: flex;
+    padding: 10px;
+    margin-top: 5px;
+    color: #00A0DC;
+    height: 63.89px;
+}
+
+.reestr {
+    text-shadow: #cad5e2 1px 1px 0, #cad5e2 2px 2px 0, 
+                 #cad5e2 3px 3px 0, #cad5e2 4px 4px 0, 
+                 #cad5e2 5px 5px 0;
+    font-size: 40px;
+}
+
+.block{
+    text-align: center;
+    margin-left: 45%;
+
+}
+
+.registr{
+    width: 180px;
+    border: 2px solid #00A0DC;
+    border-radius: 100px/100px;  
+    font-size: 24px;
+}
+
+.auth{
+    color: white;
+    width: 100px;
+    background: #00A0DC;
+    border: 2px solid #00A0DC;
+    border-radius: 100px/100px;
+    font-size: 24px;
+}
+
+.main_tite {
+    background: #00A0DC;
+    padding: 3px;
+    color: #fff;
+    display: flex;
+    height: 65px;
+}
+
+.p{
+    margin-left: 15%;
+    font-size: 20px;
+}
+
+.search_block {
+    background: #EBEBEB;
+    padding: 10px;
+    height: 190px;
+}
+
+.equipment_text {
+    color: red;
+    margin-left: 15%;
+  font-size: 32px;
+}
+
+.input {
+    height: 40px;
+width: 1024px;
+
+
+border-radius: 5px;
+
+    border-color: #B8B8B8;
+    margin-left: 15%;
+}
+
+.button_input {
+    
+    background-color: #00A0DC;
+    color: #fff;
+    height: 40px;
+width: 100px;
+font-size: 20px;
+}
+
+
+
