@@ -2,16 +2,13 @@ import React, {useState} from 'react';
 import './styles/App.css';
 import companyLogo from './images/BSTUImg.jpg'
 import searchIcon from './images/search.jpg'
-
+import { CDBFooter, CDBFooterLink, CDBBtn, CDBIcon, CDBContainer, CDBBox } from 'cdbreact';
+import Footer from './Components/Footer';
 
 function App() {
 
-  
-
-  
-
   return (
-    <div className="App">
+    <div className="page-container">
     
     <div className="post">
       <img className='img_log' src={companyLogo} alt="BSTU logo"/>
@@ -37,7 +34,11 @@ function App() {
     {/* <img className='img_log' src={searchIcon} alt="BSTU logo"/> */}
     <input className='input' type="text" />
     <button className='button_input'>Поиск &gt;</button>
-    </div>
+    </div>    
+    <div className="content-wrap"/>
+      
+    
+    <Footer/>
     </div>
   );
 }
