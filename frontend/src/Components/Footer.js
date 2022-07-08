@@ -10,12 +10,12 @@ const Footer = () => {
                     <div className="col">
                         <h5>Полезные ресурсы</h5>
                         <ul className="list-unstyled">
-                            <li>Факультеты</li>
-                            <li>Специальности</li>
-                            <li>Кафедры</li>
-                            <li>Абитуриент БГТУ</li>
-                            <li>Система дистанционного обучения БГТУ</li>
-                            <li>Почта университета</li>
+                            <li><a class="s1" href="https://www.belstu.by/faculties.html">Факультеты</a></li>
+                            <li><a class="s1" href="https://www.belstu.by/universitet/divisions/uchebno-metodicheskoe-upravlenie/perechen-specialnostej.html">Специальности</a></li>
+                            <li><a class="s1" href="https://www.belstu.by/faculties.html">Кафедры</a></li>
+                            <li><a class="s1" href="https://abiturient.belstu.by/">Абитуриент БГТУ</a></li>
+                            <li><a class="s1" href="https://dist.belstu.by/login/index.php">Система дистанционного обучения БГТУ</a></li>
+                            <li><a class="s1" href="https://mail.belstu.by/mail/">Почта университета</a></li>
                         </ul>
                     </div>
                     {/* column 2 */}

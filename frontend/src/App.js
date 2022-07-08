@@ -35,9 +35,15 @@ function App() {
     <input className='input' type="text" />
     <button className='button_input'>Поиск &gt;</button>
     </div>    
-    <div className="content-wrap"/>
-      
+
+    {/* Вывод катрочек и фильтр */}
     
+    <div className='equipment_card'>
+      <img className=''/>
+    </div>
+    
+    {/* Footer */}
+    <div className="content-wrap"/>
     <Footer/>
     </div>
   );
