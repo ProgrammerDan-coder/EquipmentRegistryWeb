@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import './styles/App.css';
 import companyLogo from './images/BSTUImg.jpg'
 import searchIcon from './images/search.jpg'
+import euipImg from './images/equipment.jpg'
 import { CDBFooter, CDBFooterLink, CDBBtn, CDBIcon, CDBContainer, CDBBox } from 'cdbreact';
 import Footer from './Components/Footer';
 
@@ -39,7 +40,7 @@ function App() {
     {/* Вывод катрочек и фильтр */}
     
     <div className='equipment_card'>
-      <img className=''/>
+      <img className='equipment_img' src={euipImg}/>
     </div>
     
     {/* Footer */}
