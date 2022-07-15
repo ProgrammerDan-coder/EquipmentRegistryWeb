@@ -25,14 +25,20 @@
 
 .block{
     text-align: center;
-    margin-left: 45%;
+    margin-left: 30%;
+    padding: 10px;
+}
+
+.block_2{
+    text-align: center;
+    margin-left: 5%;
     padding: 10px;
 }
 
 .registr{
     width: 180px;
     border: 2px solid #00A0DC;
-    border-radius: 100px/100px;  
+    border-radius: 10px/10px;  
     font-size: 24px;
 }
 
@@ -41,13 +47,13 @@
     width: 100px;
     background: #00A0DC;
     border: 2px solid #00A0DC;
-    border-radius: 100px/100px;
+    border-radius: 10px/10px;
     font-size: 24px;
 }
 
 .main_tite {
     background: #00A0DC;
-    padding: 3px;
+    padding: 13px;
     color: #fff;
     display: flex;
     height: 65px;    
@@ -57,12 +63,11 @@
     margin-right: 10%;
     margin-left: 15%;
     font-size: 20px;
-    
 }
 
 .search_block {
     background: #EBEBEB;
-    margin: 10px;
+   
     height: 190px;
     padding: 10px;
 }
@@ -117,3 +122,13 @@
     top: 525px;
     margin: 10px;
 }
+
+.filter_search {
+    width: 250px;
+    height: 300px;
+    margin-left: 75%;
+    padding: 10px;
+    margin-top: -250px;
+    background: #ffffff;
+}
+

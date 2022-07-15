@@ -25,3 +25,22 @@
  .s2:hover {
     color: #F8B600;
  }
+
+ .socialgroup {
+   background: #00A0DC;
+   padding: 10px 0;
+   text-align: center;
+ }
+ .a {
+   color: #ffffff;
+   font-size: 20px;
+   padding: 10px;
+   
+   transition: all .5s ease;
+ }
+ .a:first-child {
+   border-left: 1px solid #70726F;
+ }
+ .a:hover {
+   color: #F8B600;
+ }

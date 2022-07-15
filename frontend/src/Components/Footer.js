@@ -35,7 +35,16 @@ const Footer = () => {
                 <a class="s2" href="https://edu.gov.by/">Интернет-портал Министерства образования</a> &nbsp;
                 </p>
                 </div>
-                <hr></hr>
+                <div className="socialgroup">
+                    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+    <a class="a"href="https://www.facebook.com/belstu.official/"><i class="fa fa-facebook"></i></a>
+    <a  class="a" href="https://twitter.com/belstu_official"><i class="fa fa-twitter"></i></a>     
+    <a  class="a" href="https://www.linkedin.com/school/belstu/"><i class="fa fa-linkedin"></i></a>    
+    <a  class="a" href="https://www.instagram.com/belstu.official/"><i class="fa fa-instagram"></i></a> 
+    <a  class="a" href="https://vk.com/belstu.official"><i class="fa fa-vk"></i></a>       
+
+                </div>
             </div>
         </div>
     )
