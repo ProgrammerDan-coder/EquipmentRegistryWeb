@@ -51,7 +51,7 @@ export default class SingleSelect extends Component<{}, State> {
           isClearable={isClearable}
           isRtl={isRtl}
           isSearchable={isSearchable}
-          name="color"
+          name="faculty"
           options={DeptagsOptions}
         />
 

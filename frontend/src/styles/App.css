@@ -106,29 +106,47 @@
 
 .equipment_card {
     margin: 10px;
-    width: 1012px;
-    height: 239.6px;
+    width: 1009px;
+    height: 398px;
     left: 32px;
     top: 511.14px;
     background: #EBEBEB;
     border: 2px solid #B8B8B8;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .equipment_img {
-    width: 309px;
-    height: 207px;
-    left: 50px;
-    top: 525px;
-    margin: 10px;
+
+    width: 562px;
+    height: 396.13px;
+    left: 32px;
+    top: 520px;
+    border-radius: 5px;
+        
 }
 
+.equipment_name {
+    position: absolute;
+    width: 142px;
+    height: 37.63px;
+    left: 742px;
+    top: 531.75px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+}
+
+
 .filter_search {
+    /* top: 511.14px; */
     width: 300px;
     height: 300px;
     margin-left: 75%;
     padding: 10px;
-    margin-top: -250px;
+    margin-top: -420px;
     background: #ffffff;
 }
 

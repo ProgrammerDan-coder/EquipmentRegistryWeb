@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  database:
+    container_name: database
+    image: postgres:12.8
+    restart: always
+    environment:
+      - POSTGRES_USER=urugqkqzcleuib
+      - POSTGRES_PASSWORD=cb4ddfd9dc9369c58d189f42cc4f2e5306b7781bc04f2dfae84480c5fd746ee0
+      - POSTGRES_DB=dd0kq40v5j2j4s
+    ports:
+      - 5432:5432
+    volumes:
+      - db:/var/lib/postgresql/data 
+
+volumes:
+  db:

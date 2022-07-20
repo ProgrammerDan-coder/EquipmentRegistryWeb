@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, Component} from 'react';
 import './styles/App.css';
 import companyLogo from './images/BSTUImg.jpg'
 import searchIcon from './images/search.jpg'
@@ -9,15 +9,20 @@ import Select from 'react-select';
 import { tagsOptions } from './Components/tags/data.ts';
 import { DeptagsOptions } from './Components/tags/dep_data.ts';
 import MySelect from './Components/UI/MySelect.tsx';
+import { EquipmentList } from './Components/EquipmentList';
 
 
-function App() {
 
 
+
+class App extends React.Component {
+
+  
+   render(){
 
   return (
     <div className="page-container">
-    
+    {/* Главно поле  */}
     <div className="post">
       <img className='img_log' src={companyLogo} alt="BSTU logo"/>
         
@@ -56,28 +61,35 @@ function App() {
     </div>    
     <br/>
     {/* Вывод катрочек и фильтр */}
-    <div className='hard'>
-      <div className='equipment_card'>
+    {/* <div className='equipment_card'>
         <img className='equipment_img' src={euipImg}/>
-        
-      </div>
+        <p className='equipment_name'>Название</p>
+      </div> */}
+
+      <EquipmentList/>
     {/* Фильтр для поиска */}
       <div className='filter_search'>
         <p style={{color:'#00A0DC'}}>Фильтры</p>
+        {/* Селект для факультета */}
+        <p>Факультет</p>
         <MySelect/>
         
         <br/>
-        <br/>
+      
+        {/* Селект для кафедры */}
+        <p>Кафедра</p>
         <Select
           className="basic-single"
           classNamePrefix="select"
           
-          name="color"
+          name="department"
           options={DeptagsOptions}
         />
 
            <br/>
-           <br/>
+           
+           {/* Селект для тегов мульти */}
+           <p>Теги</p>
         <Select
             
             isMulti
@@ -85,10 +97,21 @@ function App() {
             options={tagsOptions}
             className="basic-multi-select"
             classNamePrefix="select"
+            menuPortalTarget={document.querySelector('body')}
   />
 
       </div>
-    </div>
+
+
+
+      {/* Нужно, так как footer "съедает " select элемент */}
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
     {/* Footer */}
     <div className="content-wrap"/>
     <Footer/>
@@ -96,6 +119,7 @@ function App() {
 
 
   );
+}
 }
 
 export default App;
