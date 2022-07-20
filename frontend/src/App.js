@@ -8,6 +8,9 @@ import Footer from './Components/Footer';
 import Select from 'react-select';
 import { tagsOptions } from './Components/tags/data.ts';
 import { DeptagsOptions } from './Components/tags/dep_data.ts';
+import MySelect from './Components/UI/MySelect.tsx';
+
+
 function App() {
 
 
@@ -61,13 +64,7 @@ function App() {
     {/* Фильтр для поиска */}
       <div className='filter_search'>
         <p style={{color:'#00A0DC'}}>Фильтры</p>
-        <Select
-          className="basic-single"
-          classNamePrefix="select"
-          
-          name="color"
-          options={DeptagsOptions}
-        />
+        <MySelect/>
         
         <br/>
         <br/>
