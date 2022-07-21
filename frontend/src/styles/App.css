@@ -127,16 +127,30 @@
 
 .equipment_name {
     position: absolute;
-    width: 142px;
-    height: 37.63px;
-    left: 742px;
-    top: 531.75px;
+    width: 350px;
+    left: 642px;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 22px;
     line-height: 38px;
     color: #000000;
+    margin-top: 5px;
+    
+}
+
+.equipment_button{
+   
+position: absolute;
+width: 131.73px;
+height: 47.54px;
+margin-top: 40px;
+left: 100px;
+
+background: #00A0DC;
+border: 1px solid #B8B8B8;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
 }
 
 
@@ -145,8 +159,9 @@
     width: 300px;
     height: 300px;
     margin-left: 75%;
+
     padding: 10px;
-    margin-top: -420px;
+    display: inline;
     background: #ffffff;
 }
 

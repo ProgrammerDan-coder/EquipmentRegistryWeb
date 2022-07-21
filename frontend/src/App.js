@@ -65,8 +65,13 @@ class App extends React.Component {
         <img className='equipment_img' src={euipImg}/>
         <p className='equipment_name'>Название</p>
       </div> */}
+      {/* Лист для вывода всех оборудований с бд */}
 
-      <EquipmentList/>
+
+     
+      
+      <EquipmentList/> 
+      
     {/* Фильтр для поиска */}
       <div className='filter_search'>
         <p style={{color:'#00A0DC'}}>Фильтры</p>
@@ -101,6 +106,7 @@ class App extends React.Component {
   />
 
       </div>
+
 
 
 

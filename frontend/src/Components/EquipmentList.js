@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import '../styles/App.css'
+import euipImg from '../images/equipment.jpg'
 
 export class EquipmentList extends Component {
 
@@ -41,10 +42,22 @@ export class EquipmentList extends Component {
         return(
           <ul>
             {items.map(item => (
+            
+
+              
             <div className='equipment_card'>
-                <p key={items.name}>
-                {item.name}
-            </p>
+              <img className="equipment_img" src={euipImg}/>
+                <b className="equipment_name" >
+                Название: {item.name}<br/>
+                Год изготовления: {item.yearOfProduction}<br/>
+                Кафедра: <br/> {/*item. а потом идет название кафедры с бд*/}
+                Ответсвтеный: <br/>
+                
+                <button className="equipment_button">Посмотреть</button>
+                
+            </b>
+            
+            
             </div>
             
         ))}
