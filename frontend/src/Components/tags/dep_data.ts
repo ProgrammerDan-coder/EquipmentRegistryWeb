@@ -6,9 +6,9 @@ export interface DepTagsOption {
   }
   
   export const DeptagsOptions: readonly DepTagsOption[] = [
-    { value: 'value1', label: 'Список оборудования кафедры химической переработки древесины, применяемого для научных исследований и испытаний' },
-    { value: 'optics', label :'Оптика'},
-    { value: 'chemistry', label :'Химия'},
-    { value: 'biology', label :'Биология'},
+    { value: 'value1', label: 'Кафедра1' },
+    { value: 'optics', label :'Кафедра2'},
+    { value: 'chemistry', label :'Кафедра3'},
+    { value: 'biology', label :'Кафедра4'},
   ];
   

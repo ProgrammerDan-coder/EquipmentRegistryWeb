@@ -113,6 +113,7 @@
     background: #EBEBEB;
     border: 2px solid #B8B8B8;
     border-radius: 5px;
+
 }
 
 .equipment_img {
@@ -122,6 +123,7 @@
     left: 32px;
     top: 520px;
     border-radius: 5px;
+
         
 }
 
@@ -155,11 +157,11 @@ border-radius: 5px;
 
 
 .filter_search {
-    /* top: 511.14px; */
+    top: 500px;
     width: 300px;
     height: 300px;
     margin-left: 75%;
-
+    position:absolute;
     padding: 10px;
     display: inline;
     background: #ffffff;

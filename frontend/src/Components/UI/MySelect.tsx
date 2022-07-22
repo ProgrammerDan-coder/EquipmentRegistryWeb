@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 
 import Select from 'react-select';
-import { DeptagsOptions } from '../tags/dep_data.ts';
+import { FaculTagsOptions } from '../tags/faculty_data.ts';
 
 const Checkbox = ({ children, ...props }: JSX.IntrinsicElements['input']) => (
   <label style={{ marginRight: '1em' }}>
@@ -52,7 +52,7 @@ export default class SingleSelect extends Component<{}, State> {
           isRtl={isRtl}
           isSearchable={isSearchable}
           name="faculty"
-          options={DeptagsOptions}
+          options={FaculTagsOptions}
         />
 
         
